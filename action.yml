@@ -1,10 +1,14 @@
-name: 'Wait'
+name: 'yaananth-wait'
+author: 'yaananth'
 description: 'Wait a designated number of milliseconds'
 inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'
     required: true
     default: '1000'
+branding:
+  icon: 'book'
+  color: 'orange'
 outputs:
   time: # output will be available to future steps
     description: 'The message to output'
